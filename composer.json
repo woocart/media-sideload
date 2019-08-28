@@ -1,8 +1,7 @@
 {
-    "name": "runcommand/media-sideload",
+    "name": "woocart/media-sideload",
     "description": "Sideload embedded images, and update post content references.",
     "type": "wp-cli-package",
-    "homepage": "https://runcommand.io/wp/media-sideload/",
     "license": "MIT",
     "authors": [
         {
@@ -21,21 +20,6 @@
     "extra": {
         "commands": [
             "media sideload"
-        ],
-        "readme": {
-            "shields": [
-                "[![runcommand open source](https://runcommand.io/wp-content/themes/runcommand-theme/bin/shields/runcommand-open-source.svg)](https://runcommand.io/pricing/)",
-                "[![Build Status](https://travis-ci.org/runcommand/media-sideload.svg?branch=master)](https://travis-ci.org/runcommand/media-sideload)"
-            ],
-            "sections": [
-                "Using",
-                "Installing",
-                "Support"
-            ],
-            "support": {
-                "body": "https://raw.githubusercontent.com/runcommand/runcommand-theme/master/bin/readme-partials/support-open-source.md"
-            },
-            "show_powered_by": false
-        }
+        ]
     }
 }
